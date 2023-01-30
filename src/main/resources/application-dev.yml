@@ -24,10 +24,6 @@ spring:
   sql:
     init:
       mode: always
-  application:
-    name: spring-batch-upload-csv-to-db
-    description: Upload CSV to database using spring batch
-    profile: dev
   h2:
     console:
       enabled: true
