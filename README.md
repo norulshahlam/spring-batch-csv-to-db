@@ -26,3 +26,8 @@
 ref: 
 https://livebook.manning.com/book/spring-batch-in-action/chapter-5/60
 https://docs.spring.io/spring-batch/docs/1.0.x/spring-batch-docs/reference/html/spring-batch-infrastructure.html
+
+### How to run?
+	POST localhost:8081/users/upload
+
+On this request, spring batch will start to read csv file located in resources folder
